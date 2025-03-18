@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coder Sparrow | Full Stack Developer</title>
+    <meta name="description" content="Professional portfolio of Coder Sparrow, a Full Stack Web Developer specializing in modern web applications">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function() {
+            // Replace 'YOUR_USER_ID' with your actual EmailJS user ID
+            emailjs.init('YOUR_USER_ID');
+        })();
+    </script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#home"><span>Coder</span>Sparrow</a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <input type="checkbox" id="theme-toggle-checkbox">
+                    <label for="theme-toggle-checkbox" class="toggle-label">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                        <div class="toggle-ball"></div>
+                    </label>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-up" data-aos-delay="200">
+                    <span class="greeting">Hello, I'm</span>
+                    <h1><span class="highlight">Md. Mehedi Hasan</span></h1>
+                    <h2>Founder & Lead Developer</h2>
+                    <div class="typed-text">
+                        <span id="typed"></span>
+                    </div>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="CodePen"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left" data-aos-delay="400">
+                    <div class="image-wrapper">
+                        <img src="images/profile.jpg" alt="Coder Sparrow" class="profile-img">
+                        <div class="floating-icon icon-1"><i class="fab fa-react"></i></div>
+                        <div class="floating-icon icon-2"><i class="fab fa-node-js"></i></div>
+                        <div class="floating-icon icon-3"><i class="fab fa-python"></i></div>
+                        <div class="floating-icon icon-4"><i class="fab fa-js"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about" aria-label="Scroll to About section">
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right" data-aos-delay="200">
+                    <img src="images/profile.jpg" alt="Coder Sparrow working" class="about-img">
+                    <div class="experience-badge">
+                        <span>5+</span>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left" data-aos-delay="300">
+                    <h3>A passionate Full Stack Developer based in <span class="highlight">Bangladesh</span></h3>
+                    <p>I specialize in building robust, scalable web applications using modern technologies. With over 5 years of experience in both frontend and backend development, I've helped businesses transform their digital presence and create exceptional user experiences.</p>
+                    <p>My approach combines technical expertise with creative problem-solving to deliver solutions that not only meet but exceed client expectations. I'm constantly learning and adapting to new technologies to stay at the forefront of web development.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>50+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h4>30+</h4>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat">
+                            <h4>15+</h4>
+                            <p>Technologies</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">Download CV <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>My Skills</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-text" data-aos="fade-right" data-aos-delay="200">
+                    <h3>Technical Expertise</h3>
+                    <p>I've worked with a wide range of technologies across the full stack. My expertise includes:</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Building responsive and accessible user interfaces</li>
+                        <li><i class="fas fa-check-circle"></i> Developing RESTful APIs and microservices</li>
+                        <li><i class="fas fa-check-circle"></i> Database design and optimization</li>
+                        <li><i class="fas fa-check-circle"></i> DevOps and deployment automation</li>
+                        <li><i class="fas fa-check-circle"></i> Performance optimization and testing</li>
+                    </ul>
+                </div>
+                <div class="skills-bars" data-aos="fade-left" data-aos-delay="300">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p>Frontend Development</p>
+                            <p class="percent">95%</p>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p>Backend Development</p>
+                            <p class="percent">90%</p>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p>Database Management</p>
+                            <p class="percent">85%</p>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p>DevOps</p>
+                            <p class="percent">80%</p>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <p>UI/UX Design</p>
+                            <p class="percent">75%</p>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-stack" data-aos="fade-up" data-aos-delay="400">
+                <h3>Technologies I Work With</h3>
+                <div class="tech-icons">
+                    <div class="tech-icon"><i class="fab fa-html5"></i><span>HTML5</span></div>
+                    <div class="tech-icon"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+                    <div class="tech-icon"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                    <div class="tech-icon"><i class="fab fa-react"></i><span>React</span></div>
+                    <div class="tech-icon"><i class="fab fa-vuejs"></i><span>Vue.js</span></div>
+                    <div class="tech-icon"><i class="fab fa-angular"></i><span>Angular</span></div>
+                    <div class="tech-icon"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+                    <div class="tech-icon"><i class="fab fa-python"></i><span>Python</span></div>
+                    <div class="tech-icon"><i class="fas fa-database"></i><span>MongoDB</span></div>
+                    <div class="tech-icon"><i class="fas fa-server"></i><span>SQL</span></div>
+                    <div class="tech-icon"><i class="fab fa-aws"></i><span>AWS</span></div>
+                    <div class="tech-icon"><i class="fab fa-docker"></i><span>Docker</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Featured Projects</h2>
+                <div class="underline"></div>
+                <!-- <a href="projects.html" class="view-all-link">View All Projects <i class="fas fa-arrow-right"></i></a> -->
+            </div>
+            <div class="project-filters" data-aos="fade-up" data-aos-delay="200">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="ui">UI/UX</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-img">
+                        <img src="images/project1.jpg" alt="E-commerce Platform">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" aria-label="View Project"><i class="fas fa-eye"></i></a>
+                                <a href="#" aria-label="View Code"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-commerce Platform</h3>
+                        <p>A full-featured online store with payment processing, inventory management, and analytics dashboard.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Stripe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="mobile" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-img">
+                        <img src="images/project2.jpg" alt="Fitness Tracking App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" aria-label="View Project"><i class="fas fa-eye"></i></a>
+                                <a href="#" aria-label="View Code"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Fitness Tracking App</h3>
+                        <p>Mobile application for tracking workouts, nutrition, and progress with social features.</p>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Redux</span>
+                            <span>GraphQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ui" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-img">
+                        <img src="images/project3.jpg" alt="Dashboard UI Redesign">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" aria-label="View Project"><i class="fas fa-eye"></i></a>
+                                <a href="#" aria-label="View Code"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Dashboard UI Redesign</h3>
+                        <p>Complete redesign of an analytics dashboard focusing on usability and data visualization.</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>Vue.js</span>
+                            <span>D3.js</span>
+                            <span>Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-cta" data-aos="fade-up" data-aos-delay="600">
+                <a href="projects.html" class="btn btn-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Team Sparrow</h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="team-container" data-aos="fade-up" data-aos-delay="200">
+                <!-- Team Member 1 -->
+                <div class="team-member">
+                    <div class="member-img-container">
+                        <img src="images/profile.jpg" alt="Coder Sparrow" class="member-img">
+                        <div class="member-social">
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Coder Sparrow</h3>
+                        <span>Founder & Lead Developer</span>
+                        <p>Full stack developer with expertise in React, Node.js and cloud architecture.</p>
+                    </div>
+                </div>
+                
+                <!-- Team Member 2 -->
+                <div class="team-member">
+                    <div class="member-img-container">
+                        <img src="images/team-2.jpg" alt="Alex Chen" class="member-img">
+                        <div class="member-social">
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Alex Chen</h3>
+                        <span>UI/UX Designer</span>
+                        <p>Creative designer focused on crafting beautiful and intuitive user experiences.</p>
+                    </div>
+                </div>
+                
+                <!-- Team Member 3 -->
+                <div class="team-member">
+                    <div class="member-img-container">
+                        <img src="images/team-3.jpg" alt="Sarah Johnson" class="member-img">
+                        <div class="member-social">
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="CodePen"><i class="fab fa-codepen"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Sarah Johnson</h3>
+                        <span>Backend Developer</span>
+                        <p>Database expert specializing in scalable architecture and API development.</p>
+                    </div>
+                </div>
+
+                <!-- Team Member 4 -->
+                <div class="team-member">
+                    <div class="member-img-container">
+                        <img src="images/team-3.jpg" alt="Sarah Johnson" class="member-img">
+                        <div class="member-social">
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="CodePen"><i class="fab fa-codepen"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Sarah Johnson</h3>
+                        <span>Backend Developer</span>
+                        <p>Database expert specializing in scalable architecture and API development.</p>
+                    </div>
+                </div>
+
+                <!-- Team Member 5 -->
+                <div class="team-member">
+                    <div class="member-img-container">
+                        <img src="images/team-3.jpg" alt="Sarah Johnson" class="member-img">
+                        <div class="member-social">
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="CodePen"><i class="fab fa-codepen"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Sarah Johnson</h3>
+                        <span>Backend Developer</span>
+                        <p>Database expert specializing in scalable architecture and API development.</p>
+                    </div>
+                </div>
+                
+                <!-- Team Member 6 -->
+                <div class="team-member">
+                    <div class="member-img-container">
+                        <img src="images/team-4.jpg" alt="Michael Rodriguez" class="member-img">
+                        <div class="member-social">
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="Medium"><i class="fab fa-medium-m"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Michael Rodriguez</h3>
+                        <span>DevOps Engineer</span>
+                        <p>Infrastructure specialist with expertise in CI/CD pipelines and cloud services.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Client Testimonials</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="testimonial-slider" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>Coder Sparrow transformed our outdated website into a modern, high-performing platform that's increased our conversion rates by 40%. Their technical expertise and attention to detail are unmatched.</p>
+                        <div class="client-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>CEO, TechStart Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>Working with Coder Sparrow was a game-changer for our startup. They built our MVP in record time, allowing us to secure funding and launch faster than expected. Highly recommended!</p>
+                        <div class="client-info">
+                            <h4>Michael Chen</h4>
+                            <p>Founder, InnovateLab</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>The e-commerce platform Coder Sparrow developed for us has been flawless. It handles our peak traffic periods with ease and the custom admin dashboard has streamlined our operations significantly.</p>
+                        <div class="client-info">
+                            <h4>Emily Rodriguez</h4>
+                            <p>CTO, StyleShop</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="prev-btn" aria-label="Previous testimonial"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="next-btn" aria-label="Next testimonial"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Get In Touch</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                    <h3>Let's talk about your project</h3>
+                    <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="text">
+                                <h4>Location</h4>
+                                <p><a href="https://maps.google.com/?q=Naogaon" target="_blank" rel="noopener noreferrer">Naogaon, Bangladesh</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon"><i class="fas fa-envelope"></i></div>
+                            <div class="text">
+                                <h4>Email</h4>
+                                <p><a href="mailto:developer.codersparrow@gmail.com">developer.codersparrow@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon"><i class="fas fa-phone-alt"></i></div>
+                            <div class="text">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+8801732594795">+8801732594795</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left" data-aos-delay="300">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#"><span>Coder</span>Sparrow</a>
+                    <p>Creating digital experiences that make a difference.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to receive updates on new projects and tech articles.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Coder Sparrow. All Rights Reserved.</p>
+                <div class="back-to-top">
+                    <a href="#home" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html> 

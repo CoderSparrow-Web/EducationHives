@@ -1,0 +1,22 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="60" cy="60" r="60" fill="#1E1E1E"/>
+  
+  <!-- Code Brackets -->
+  <path d="M40 45L25 60L40 75" stroke="#64FFDA" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M80 45L95 60L80 75" stroke="#64FFDA" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Sparrow Silhouette -->
+  <path d="M60 35C60 35 52 45 52 50C52 55 56 59 60 59C64 59 68 55 68 50C68 45 60 35 60 35Z" fill="#7B5CFF"/>
+  
+  <!-- Wings -->
+  <path d="M52 50C52 50 42 45 40 55C40 55 45 53 52 55" fill="#7B5CFF"/>
+  <path d="M68 50C68 50 78 45 80 55C80 55 75 53 68 55" fill="#7B5CFF"/>
+  
+  <!-- Slash -->
+  <path d="M50 85L70 35" stroke="#64FFDA" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Text -->
+  <path d="M30 95H35.764L38.2 88.6H49.4L51.836 95H57.6L46.4 65H41.2L30 95ZM39.8 84.2L43.8 73.4L47.8 84.2H39.8Z" fill="white"/>
+  <path d="M60 95H65V80.2C65 78.6 65.4 77.4 66.2 76.6C67 75.8 68 75.4 69.2 75.4C70.4 75.4 71.4 75.8 72.2 76.6C73 77.4 73.4 78.6 73.4 80.2V95H78.4V79.4C78.4 76.6 77.6 74.4 76 72.8C74.4 71.2 72.4 70.4 70 70.4C68.4 70.4 67 70.8 65.8 71.6C64.6 72.4 63.8 73.4 63.4 74.6H63V71H60V95Z" fill="white"/>
+</svg> 
